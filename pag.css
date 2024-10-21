@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Estilo do Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    line-height: 1.6;
+}
+/*Cabeçalho */
+.cabecalho {
+    background-color: #b297eb;
+    color: #fff;
+    padding: 15px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /*gap: 15px;  Espaço entre a imagem e o texto */
+}
+/*imagem da logo do cabeçalho*/  
+.cabecalho-logo {
+    width: 80px; /* Ajuste o tamanho da imagem */
+    height: 80px;
+    /*border-radius: 50%; deixa a imagem redonda*/
+}
+/* Icones das redes sociais do cabeçalho*/
+.ajustando-icones {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.ajustando-icones li {
+    display: inline-block;
+}
+
+.ajustando-icones li a img {
+    width: 26px; /* Tamanho dos ícones */
+    height: 26px;
+}
+
+
+/*Imagem do ghostface*/
+.imagem-container img {
+    width: 1513px; /* Faz a imagem ocupar a largura total do contêiner */
+    height: 500px;
+    margin-bottom: 15px;
+    
+}
+/*Titulo do assunto do site*/
+.sobreposicao-de-texto {
+    position: absolute;
+    top: 50%; /* Centraliza o texto verticalmente */
+    left: 50%; /* Centraliza o texto horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o ponto de origem para o centro */
+    color: #fff; /* Cor do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o texto */
+    padding: 10px;
+    text-align: center;
+}
+
+/*cria uma linha na vertical*/
+.linha-vertical {
+    border-left: 4px solid #b297eb; /* A cor e a espessura da linha */
+    padding-left: 10px; /* Espaço entre a linha e o texto */ /* Espaço em volta do elemento */
+    margin: 0px 100px;
+    margin-right: 40%;
+    margin-bottom: 25px;
+}
+
+/*todos os h2 vão ter as mesmas caracteristicas*/
+ h2 {
+    margin: 0px 100px;
+    color: #b297eb;
+}
+/*todos os p vão ter as mesmas caracteristicas*/ 
+p {
+    margin: 0px 100px;
+    margin-right: 40%;
+    margin-bottom: 10px;
+    border-left: 4px solid #b297eb; /* A cor e a espessura da linha */
+    padding-left: 10px;
+}
+/* todos videos terão  mesmo tamanho*/
+iframe {
+    margin: 20px 100px;
+}
+/*Todos os paragrafos vão ter uma linha na vertical*/
+
+  /* Rodapé */
+footer p {
+    
+    width: 100%;
+    background-color: #ffffff;
+    color: #b297eb;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/*Imagem do rodapé*/
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/*rodapé*/
+footer {
+    background-color: #b297eb;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+    position: relative;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+
